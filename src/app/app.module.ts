@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PaperCanvasComponent } from './paper-canvas/paper-canvas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PaperCanvasComponent
   ],
   imports: [
     BrowserModule,
